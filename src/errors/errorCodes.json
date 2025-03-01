@@ -1,0 +1,17 @@
+{
+    "AUTH_INVALID_CREDENTIALS": {
+        "code": "AUTH_0001",
+        "message": "Invalid credentials. Please try again.",
+        "httpStatus": 401
+    },
+    "AUTH_TOKEN_EXPIRED": {
+        "code": "AUTH_0002",
+        "message": "Your session has expired. Please log in again.",
+        "httpStatus": 401
+    },
+    "SYSTEM_INTERNAL_ERROR": {
+        "code": "SYS_0001",
+        "message": "An internal server error occurred.",
+        "httpStatus": 500
+    }
+}
